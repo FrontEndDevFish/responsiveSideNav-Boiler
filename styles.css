@@ -29,8 +29,6 @@ body {
 .primary-nav {
     background-color: white;
     transition: width 500ms ease;
-    height: 100vh;
-    width: 5rem;
 }
 
 .nav__list {
@@ -89,6 +87,15 @@ body {
 
 /* Responsive larger screens */
 @media only screen and (min-width: 625px) {
+    
+.primary-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 5rem;
+    height: 100vh;
+}
+    
     .primary-nav:hover {
          width: 18rem;
 
